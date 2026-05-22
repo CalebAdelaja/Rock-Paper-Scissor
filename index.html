@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main id="container">
+        <h1>ROCK PAPER SCISSORS</h1>
+        <p class="choose"> Choose ROCK PAPER SCISSOR</p>
+
+        <div class="scroe-container">
+            <div class="score-card">
+                <h3>You</h3>
+                <p class="score" id="Pscore">0</p>
+            </div>
+            <div class="score-card">
+                <h3>Computer</h3>
+                <p class="score" id="Cscore">0</p>
+            </div>
+        </div>
+
+        <div class="arena">
+                <div class="player-choice-view">
+                    <div class="emoji-view" id="player-view">❓</div>
+                    <p>You</p>
+                </div>
+                <div class="versus">VS</div>
+                
+                <div class="player-choice-view">
+                    <div class="emoji-view" id="computer-view">❓</div>
+                    <p>Computer</p>
+                </div>
+        </div>
+
+        <div class="player-choice">
+            <button class="choice-btn">✊</button>
+            <button class="choice-btn">🤚</button>
+            <button class="choice-btn">✂️</button>
+        </div>
+
+        <div class="result-container">
+            <p class="result-text">Make your move</p>
+        </div>
+
+        <button id="play-btn">Play</button>
+    </main>
+
+    <div class="comp-winning-state">
+        <div class="comp-win-status">
+            <h2 id="win-headtext"></h2>
+            <h4 id="win-text"></h4>
+            <button id="restart-btn">Restart Game</button>
+        </div>
+    </div>
+
+    <!-- <div class="player-winning-state">
+        <div class="player-win-status">
+            <h2 id="player-win-headtext"></h2>
+            <h4 id="player-win-text"></h4>
+        </div>
+    </div> -->
+    <script src="main.js"></script>
+</body>
+</html>
