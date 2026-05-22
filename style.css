@@ -185,20 +185,3 @@ h1 {
     border-radius: 5px;
     cursor: pointer;
 }
-/* .player-winning-state {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background: #fff;
-    border-radius: 5px;
-}
-
-.player-win-status {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    max-width: 420px;
-    padding: 3rem 4rem;
-} */
