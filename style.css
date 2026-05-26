@@ -112,7 +112,7 @@ h1 {
     height: 90px;
     border: none;
     outline: none;
-    background: #5e5c5c;
+    background: #ececec;
     font-size: 2rem;
     cursor: pointer;
     transition: 0.4s;
@@ -121,7 +121,7 @@ h1 {
 
 .choice-btn:hover {
     transform: translateY(-3px);
-    background: #ececec;
+    background: #cccccc;
 }
 
 .result-container {
@@ -168,7 +168,7 @@ h1 {
     background: rgba(0,0,0,0.3);
     justify-content: center;
     align-items: center;
-    backdrop-filter: blur(3px);
+    backdrop-filter: blur(1px);
 }
 
 .comp-win-status {

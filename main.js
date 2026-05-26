@@ -20,7 +20,6 @@ restartBtn.addEventListener("click", () => {
 });
 
 
-
 const choicesBtn = document.querySelectorAll(".choice-btn")
 const winningState = document.querySelector(".comp-winning-state");
 choicesBtn.forEach((playerEmoji) => {
